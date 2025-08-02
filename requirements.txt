@@ -1,4 +1,9 @@
-fastapi
+fastapi~=0.116.1
 uvicorn[standard]
-python-telegram-bot==21.0
-python-dotenv
+python-telegram-bot[job-queue]==21.0
+python-dotenv~=1.1.1
+sqlmodel~=0.0.24
+SQLAlchemy~=2.0.41
+openai
+aiogram
+matplotlib
